@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body, html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+div.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #010101;
+}
+div.container-form form{
+    background-color: #181818;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+    padding: 30px;
+}
+div.container-form form h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+div.container-form form label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+div.container-form form input{
+    padding: 9px 18px;
+    outline: 0;
+}
+div.container-form form button{
+    padding: 9px 18px;
+    background-color: #693e9b;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+div.container-form p a{
+    color: #693e9b;
+}
+
+div.container-form p {
+    color: #fff;
+    margin-top: 20px;
+}
+
+p.error_message{
+    margin-bottom: 10px;
+}
+div.max-width{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    padding: 10px 0px;
+    background-color: #693e9b;
+    color: #fff;
+    box-shadow: 0px 10px 20px #a2a2a2;
+}
+header div.max-width{
+    align-items: center;
+}
+header div.max-width button{
+    margin-left: 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 7px 14px;
+}
+div.container div.max-width table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+}
+div.container div.max-width table thead{
+    background-color: #693e9b;
+    color: #fff;
+}
+div.container div.max-width table thead tr td{
+    padding: 7px 14px;
+    border-bottom: 1px solid #000;
+}
+div.container div.max-width table tbody tr td{
+    padding: 7px 14px;
+    border-bottom: 1px solid #000;
+}
+
+div.container div.max-width table tbody tr:nth-child(even) td{
+    background-color: #ececec;
+}
